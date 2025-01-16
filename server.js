@@ -81,3 +81,58 @@ app.get("/menu/:category", (req, res) => {
 });
 
 app.listen(3000);
+
+//   <!-- <% let mainsEl = document.getElementById('mains') %>
+//   <% let ulEl = document.querySelector('#menuUl') %>
+//   <% if (item.catagory === "mains") { %>
+//   <% mainsEl.appendCHild(ulEL) %>
+//   <% } %> --
+
+//    <h2>Mains</h2>
+//     <ul>
+//       <% mains.forEach(item => { %>
+//       <li>
+//         <% if (item.rating === 5) { %> &#x2B50; <% } %> <%= item.name %>, $<%=
+//         item.price %> - <%= item.rating %> stars
+//         <ul>
+//           <li><%= item.details %></li>
+//         </ul>
+//       </li>
+//     </ul>
+//     <% }) %>
+
+  //    <% if (item.category === "mains") { %>
+  // <h2>Mains</h2>
+  // <% } else if (item.category === "sides") { %>
+  // <h2>Sides</h2>
+  // <% } else if (item.category === "desserts") { %>
+  // <h2>Desserts</h2>
+  // <% } %>
+
+//   <script>
+//     let mainsEl = document.getElementById("mains");
+//     let ulEl = document.querySelector("#menuUl");
+//   </script>
+//   <% if (item.catagory === "mains") { %> <% mainsEl.appendCHild(ulEL); %> <%
+//   } %>
+
+
+
+    // <ul>
+    //   <% fullMenu.forEach(item => { %> <% if (item.category === "mains") { %>
+    //   <h2>Mains</h2>
+    //   <% } else if (item.category === "sides") { %>
+    //   <h2>Sides</h2>
+    //   <% } else if (item.category === "desserts") { %>
+    //   <h2>Desserts</h2>
+    //   <% } %>
+    // <ul>
+    //   <li>
+    //     <% if (item.rating === 5) { %> &#x2B50; <% } %> <%= item.name %>,
+    //     $<%=item.price %> - <%= item.rating %> stars
+    //     <ul>
+    //       <li><%= item.details %></li>
+    //     </ul>
+    //   </li>
+    //   <% }) %>
+    // </ul>
